@@ -1,0 +1,14 @@
+E:\Sophie Project\Compiler\compiler\compiler\bin\Debug\netcoreapp3.1\compiler.exe
+E:\Sophie Project\Compiler\compiler\compiler\bin\Debug\netcoreapp3.1\compiler.deps.json
+E:\Sophie Project\Compiler\compiler\compiler\bin\Debug\netcoreapp3.1\compiler.runtimeconfig.json
+E:\Sophie Project\Compiler\compiler\compiler\bin\Debug\netcoreapp3.1\compiler.runtimeconfig.dev.json
+E:\Sophie Project\Compiler\compiler\compiler\bin\Debug\netcoreapp3.1\compiler.dll
+E:\Sophie Project\Compiler\compiler\compiler\bin\Debug\netcoreapp3.1\compiler.pdb
+E:\Sophie Project\Compiler\compiler\compiler\obj\Debug\netcoreapp3.1\compiler.csproj.AssemblyReference.cache
+E:\Sophie Project\Compiler\compiler\compiler\obj\Debug\netcoreapp3.1\compiler.GeneratedMSBuildEditorConfig.editorconfig
+E:\Sophie Project\Compiler\compiler\compiler\obj\Debug\netcoreapp3.1\compiler.AssemblyInfoInputs.cache
+E:\Sophie Project\Compiler\compiler\compiler\obj\Debug\netcoreapp3.1\compiler.AssemblyInfo.cs
+E:\Sophie Project\Compiler\compiler\compiler\obj\Debug\netcoreapp3.1\compiler.csproj.CoreCompileInputs.cache
+E:\Sophie Project\Compiler\compiler\compiler\obj\Debug\netcoreapp3.1\compiler.dll
+E:\Sophie Project\Compiler\compiler\compiler\obj\Debug\netcoreapp3.1\compiler.pdb
+E:\Sophie Project\Compiler\compiler\compiler\obj\Debug\netcoreapp3.1\compiler.genruntimeconfig.cache
