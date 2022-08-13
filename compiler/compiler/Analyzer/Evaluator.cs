@@ -4,7 +4,7 @@ using System.Text;
 
 namespace compiler.Analyzer
 {
-    class Evaluator
+    public sealed class Evaluator
     {
         private readonly ExpressionSyntax _root;
         public Evaluator(ExpressionSyntax root)
@@ -17,9 +17,9 @@ namespace compiler.Analyzer
         }
         private int EvaluateExpression(ExpressionSyntax node)
         {
-            if (node is NumberExpressionSyntax number)
+            if (node is LiterlaExpressionSyntax number)
             {
-                return (int)number.NumberToken.Value;
+                return (int)number.LiteralToken.Value;
             }
             if (node is BinaryExpressionSyntax binary)
             {

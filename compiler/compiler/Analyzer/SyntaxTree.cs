@@ -5,7 +5,7 @@ using System.Text;
 
 namespace compiler.Analyzer
 {
-    sealed class SyntaxTree
+    public sealed class SyntaxTree
     {
         public ExpressionSyntax Root { get;}
         public SyntaxToken EndOfFileToken { get;}

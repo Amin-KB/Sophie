@@ -4,7 +4,7 @@ using System.Text;
 
 namespace compiler.Analyzer
 {
-    abstract class ExpressionSyntax : SyntaxNode
+    public abstract class ExpressionSyntax : SyntaxNode
     {
     }
 }

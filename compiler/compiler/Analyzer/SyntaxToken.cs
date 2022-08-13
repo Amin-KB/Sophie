@@ -6,23 +6,8 @@ using System.Text;
 
 namespace compiler.Analyzer
 {
-    enum SyntaxKind
-    {
-        NumberToken,
-        WhiteSpaceToken,
-        PlusToken,
-        MinusToken,
-        StarToken,
-        SlashToken,
-        OpenParenthesisToken,
-        CloseParenthesisToken,
-        UnKnownToken,
-        EndOfFileToken,
-        NumberExpression,
-        BinaryExpression,
-        ParethesizedExpression
-    }
-    class SyntaxToken: SyntaxNode
+    
+    public sealed class SyntaxToken: SyntaxNode
     {
         public override SyntaxKind Kind { get;  }
         public int Position { get; }

@@ -4,13 +4,13 @@ using System.Linq;
 
 namespace compiler
 {
-    internal class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
             while (true)
             {
-                bool showTree = false;
+                var showTree = false;
                 Console.Write("> ");
                 var line= Console.ReadLine();
                 if(string.IsNullOrWhiteSpace(line))
@@ -31,10 +31,10 @@ namespace compiler
 
                 if (showTree)
                 {
-                    var color = Console.ForegroundColor;
+                    
                     Console.ForegroundColor = ConsoleColor.DarkGray;
                     PrettyPrint(syntaxTree.Root);
-                    Console.ForegroundColor = color;
+                    Console.ResetColor();
                 }
                 
                 if (!syntaxTree.Diagnostics.Any())
@@ -45,13 +45,13 @@ namespace compiler
                 }
                 else
                 {
-                    var color = Console.ForegroundColor;
+                   
                     Console.ForegroundColor = ConsoleColor.DarkRed;
                     foreach (var diagnostic in syntaxTree.Diagnostics)
                     {
                         Console.WriteLine(diagnostic);
                     }
-                    Console.ForegroundColor = color;
+                    Console.ResetColor();
                 }
             }
         }
